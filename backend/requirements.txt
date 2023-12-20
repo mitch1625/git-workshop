@@ -1,0 +1,19 @@
+blinker==1.7.0
+click==8.1.7
+Flask==3.0.0
+Flask-Cors==4.0.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+Werkzeug==3.0.1
+## Installation
+
+1. Create python virtual environment: `python -m venv .venv`
+2. Activate virtual env & Install dependencies: `source .venv/bin/activate && pip install -r requirements.txt`
+
+## Getting Started
+
+1. `python app.py`
+2. Test that http://127.0.0.1:5000 and http://127.0.0.1:5000/students are returning data
+
+Your backend is running!
